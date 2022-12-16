@@ -1,0 +1,98 @@
+/* Custom properties/variables  */
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+    --main-grey: #808080;
+    --main-oro: #efb810;
+    --main-pink: #ff0080;
+    --main-yellow: #ffff00;
+    --main-midblue: #0E0E52;
+    --main-navyblu: #150578;
+    --main-persiablue: #192BC2;
+    --main-carolinablue: #192BC2;
+    --main-skyblue: #78C0E0;
+}
+
+  /* Base reset */
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+
+
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+
+@media (max-width: 61.25em) {
+    html {
+    font-size: 58%;
+    }
+}
+
+
+@media (max-width: 28.75em) {
+    html {
+    font-size: 55%;
+    }
+}
+
+
+/* cambia el alejandro*/
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(249, 249, 249);
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+img {
+    display: block;
+    width: 100%;
+}

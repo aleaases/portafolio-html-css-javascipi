@@ -1,0 +1,130 @@
+  /* nav */
+#perfeccion {
+    font-family: 'Bebas Neue';
+    
+}
+/* modifica la barra de arriba */
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-midblue);
+    box-shadow: 0 2px 0 rgba(16, 73, 134, 0.962);
+    z-index: 10;
+    
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+    justify-content: center;
+    }
+
+    .nav-list {
+    margin: 0 1rem;
+    }
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+
+.nav-list a:hover {
+    background: var(--main-blue);
+}
+
+/* cambia la foto de presentacion */
+
+.welcome-presentacion {
+    border: #0b0b0b 1px solid;
+    border-radius: 50%;
+}
+
+
+ /* Welcome section */
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(174, 201, 207);
+    background-image: linear-gradient(62deg, #0b0b0b 0%, #181719 100%);
+    background-image: url(../../assets/img/water-21.gif);
+
+}
+/*cambia el full stack*/
+.welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-white);
+    font-family: 'Lobster', cursive;
+}
+
+/*skill */
+
+#habilidadesskills {
+    text-align: center;
+    padding: 10rem 2rem;
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-white);
+    background-color: var(--main-midblue);
+    
+}
+
+#project-title {
+    text-align: center;
+    padding: 10rem 2rem;
+    text-decoration: underline;
+    
+}
+
+.projects1 {
+    background-color: #8196ab;
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border: #0b0b0b 5px solid;
+    border-radius: 50px;
+    
+}
+
+.projects2 {
+    background-color: rgb(0, 164, 252);
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border: #0b0b0b 5px solid;
+    border-radius: 50px;
+
+}
+.projects3 {
+    background-color: rgb(0, 164, 252);
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border: #0b0b0b 5px solid;
+    border-radius: 50px;
+
+}
+.projects4 {
+    background-color: rgb(0, 164, 252);
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border: #0b0b0b 5px solid;
+    border-radius: 50px;
