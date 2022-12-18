@@ -1,5 +1,5 @@
 .container{
-    width:100%;
+    width:100vh;
     height:100vh;
     display:flex;
     flex-direction: column;
@@ -8,82 +8,74 @@
 }
 .slider {
     height: 750px;
-    width:100vw;
+    width:98vw;
     display: flex;
     justify-content: center;
     position: relative;
     align-items:center;
 }
 .box1{      
-    background:url("../../assets/img/imagen-militar.jpg");
-    background-size:cover;
+    background-size:contain;
     background-position:center center;
 }
 .box2{
-    background:url("../../assets/img/imagen-militar.jpg");
-    background-size:cover;
+    background-size:contain;
     background-position:center center;
 }
 .box3{
-    background:url("../../assets/img/imagen-militar.jpg");
-    background-size:cover;
+    background-size:contain;
     background-position:center center;
 }
 .box4{
-    background:url("../../assets/img/imagen-militar.jpg");
-    background-size:cover;
+    background-size:contain;
     background-position:center center;
 }
 .box5{
-    background:url("../../assets/img/imagen-militar.jpg");
-    background-size:cover;
+    background-size:contain;
     background-position:center center;
 }
 .box6{
-    background:url("../../assets/img/imagen-militar.jpg");
-    background-size:cover;
+    background-size:contain;
     background-position:center center;
 }
 .box7{
-    background:url("../../assets/img/imagen-militar.jpg");
-    background-size:cover;
+    background-size:contain;
     background-position:center center;
 }
 
 .slider [class*="box"] {
   /*   float: left; */
-    overflow: hidden;
     border-radius:20px;
     transition: all 1s cubic-bezier(0.68, -0.6, 0.32, 1.6);
     position:absolute;
 }
 .slider [class*="box"]:nth-child(7),
 .slider [class*="box"]:nth-child(1) {
-    width: 100vh;
-    height: 60vh;
+    width: 30vh;
+    height: 30vh;
     transform: scale(0.2) translate(-50%,-50%);
     top: 10%;
     z-index:1;
 }
 .slider [class*="box"]:nth-child(2),
 .slider [class*="box"]:nth-child(6) {
-    width: 100vh;
-    height: 60vh;
+    width: 30vh;
+    height: 30vh;
     transform: scale(0.4) translate(-50%,-50%);
     top: 20%;
     z-index:2;
 }
 .slider [class*="box"]:nth-child(3),
 .slider [class*="box"]:nth-child(5) {
-    width: 100vh;
-    height: 60vh;
+    width: 30vh;
+    height: 30vh;
     transform: scale(0.6) translate(-50%,-50%);
     top: 30%;
     z-index:3;
 }
 .slider [class*="box"]:nth-child(4) {
-    width: 60vw;
-    height: 60vh;
+    width: 30vw;
+    height: 30vh;
     color: #fff;
     transform: scale(1) translate(-50%,-50%);
     top: 50%;
