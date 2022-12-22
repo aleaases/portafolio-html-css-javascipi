@@ -1,0 +1,59 @@
+.container-1 {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--main-white);
+    background-color: var(--main-midblue);
+    display: block;
+    justify-content: center;
+    border: #ff0303 1px solid;
+    
+}
+
+.container-box{
+    border: #0b0b0b 1px solid;
+    display: flex;
+    justify-content: center;
+
+}
+.container-titulo{
+    text-align: center;
+    padding: 10rem 2rem;
+    text-decoration: underline;
+}
+
+.container-img {
+    width: 50%;
+    height: 100vh;
+    background-color: #8196ab;
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border: #0b0b0b 5px solid;
+    border-radius: 50px;
+    justify-content: center;
+    background-image: url(../../assets/img/alejandro\ en\ el\ \ ejercito.jpg);
+    background-size: cover;
+    
+}
+
+.container-3 {
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    background-color: #8196ab;
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    border: #0b0b0b 5px solid;
+    border-radius: 50px;
+    
+}
+
+.container-boton {
+    text-align: center;
+    padding: 10rem 2rem;
+    text-decoration: underline;
+    bottom: 10px;
+    border-radius: 50px;
+
+}

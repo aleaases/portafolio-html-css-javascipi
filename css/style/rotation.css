@@ -1,14 +1,20 @@
-.container{
+.container-rotation {
+    background-color: var(--main-midblue);
+}
+
+.container-2{
     width:100vh;
     height:100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:flex-end;
     align-items:center;
 }
+
 .slider {
     height: 750px;
-    width:98vw;
+    width:90%;
+    perspective: 100px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -43,11 +49,42 @@
     background-position:center center;
 }
 
+.box8{
+    background-size:contain;
+    background-position:center center;
+}
+
+.box9{
+    background-size:contain;
+    background-position:center center;
+}
+
+.box{
+    background-size:contain;
+    background-position:center center;
+}
+
 .slider [class*="box"] {
   /*   float: left; */
     border-radius:20px;
-    transition: all 1s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transition: all 1s cubic-bezier(0.60, -0.6, 0.32, 1.6);
     position:absolute;
+}
+.slider [class*="box"]:nth-child(10),
+.slider [class*="box"]:nth-child(9) {
+    width: 30vh;
+    height: 30vh;
+    transform: scale(0.2) translate(-50%,-50%);
+    top: 10%;
+    z-index:-1;
+}
+.slider [class*="box"]:nth-child(11),
+.slider [class*="box"]:nth-child(8) {
+    width: 30vh;
+    height: 30vh;
+    transform: scale(0.2) translate(-50%,-50%);
+    top: 10%;
+    z-index:0;
 }
 .slider [class*="box"]:nth-child(7),
 .slider [class*="box"]:nth-child(1) {
@@ -74,7 +111,7 @@
     z-index:3;
 }
 .slider [class*="box"]:nth-child(4) {
-    width: 30vw;
+    width: 50vw;
     height: 30vh;
     color: #fff;
     transform: scale(1) translate(-50%,-50%);
