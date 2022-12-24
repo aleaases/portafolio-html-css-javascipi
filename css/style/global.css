@@ -49,4 +49,5 @@ body {
     font-weight: 400;
     line-height: 1.4;
     color: rgb(249, 249, 249);
+    display: flex;
 }

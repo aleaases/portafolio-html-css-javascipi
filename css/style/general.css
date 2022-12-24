@@ -3,7 +3,7 @@
 
 .welcome-presentacion {
     border: #ffffff 1px solid;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 
@@ -33,7 +33,7 @@
 /*cambia el skip*/
 .full-work {
     display: flex;
-    justify-content: center;
+    justify-content: last baseline;
     color: var(--main-white);
     font-size: 2rem;
 }
