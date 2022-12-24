@@ -29,16 +29,21 @@ body,
     justify-content: center;
 }
 
+#full-menu li a span {
+    color: white;
+}
+
 .full-menu {
     position: absolute;
     background-color: #0E0E52;
     opacity: 1;
     transform: translateX(100%);
     transition: all 400ms ease-in;
+    color: #fff;
 }
 .full-menu li {
     font-size: 3rem;
-    color: #fff;
+    color: rgb(4, 0, 0);
     opacity: 0;
     transform: translateY(2%);
     transition: all 300ms ease-in;
@@ -113,4 +118,11 @@ body,
 }
 .close-hamburguer .line-bottom {
     transform: translateY(-200%) rotate(135deg);
+}
+
+a:link { text-decoration: none;
+    color: white;
+}
+a:visited {
+text-decoration: none;
 }

@@ -2,8 +2,8 @@
 /* cambia la foto de presentacion */
 
 .welcome-presentacion {
-    border: #0b0b0b 1px solid;
-    border-radius: 50%;
+    border: #ffffff 1px solid;
+    border-radius: 20%;
 }
 
 
@@ -39,6 +39,7 @@
 }
 .full-work span {
     color: white;
+    inline-size: none;
 }
 
 /*skill */
