@@ -11,42 +11,37 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gideon+Roman&family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
 </head>
     
 <body>
-    <header>
-        <nav>
-            <div class="navbar">
-                <div class="container nav-container">
-                    <input class="checkbox" type="checkbox" name="" id="" />
-                    <div class="hamburger-lines">
-                        <span class="line line1"></span>
-                        <span class="line line2"></span>
-                        <span class="line line3"></span>
-                    </div>  
-                    <div class="logo">
-                    <h1>Navbar</h1>
-                    </div>
-                    <div class="menu-items">
-                        <li><a href="#welcome-section">Inicio</a></li>
-                        <li><a href="#sobre-mi">Sobre Mi</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Trabajos</a></li>
-                        <li><a href="#">Proyectos</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    <div class="containerfull">
+        <div class="full-menu">
+            <nav id="menu" class="menu">
+                <ul>
+                    <li class="home"> </li>
+                    <li class="contact"> <a href="#welcome-section">Inicio</a> Inicio</li>
+                    <li class="about"> <a href="#Sobre-mi">Sobre Mi</a></li>
+                    <li class="works"> <a href="#project-title">Skill </a></li>
+                    <li class="contact">Trabajos</li>
+                    <li class="contact">Proyectos</li>
+                    <li class="contact">Contacto</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburguer">
+            <div class="lines line-top"></div>
+            <div class="lines line-mid"></div>
+            <div class="lines line-bottom"></div>
+        </div>
     <div id="welcome-section" class="welcome-section">
         <picture >
             <img class="welcome-presentacion" src="../assets/img/alejandro en el  ejercito.jpg" alt="foto presentacion" width="250" height="400">
         </picture>
         <h1>Alejandro Ases</h1>
-        <p>Full Stack Developer</p>
+        <p>Front-End Developer</p>
+        <div class="full-work">
+            <a href=""><span>skip</span></a>
+        </div>
     </div>
     <div id="sobre-mi" class="container-1">
         <div class="container-titulo">
@@ -62,7 +57,6 @@
                 Estoy estudiando para lograr ser Full-stack. Me especializo en Html, Css, JavaScript, GitHub, Bootstrap, Sass, Reactjs, TypeScript, Angular. Estoy especializandome en Back-End con PhP, Laravel, Symfony, PHP unit. tambien en Phyton, Django.
             </p>
             </div>
-
         </div>
         
         
@@ -92,45 +86,9 @@
             <h3>Mobile App</h3>
         </div>
     </div>
-    <div class="container-rotation">
-        <div class="Container-2">
-            <div class="slider">
-                <div class="box1">
-                    <img src="../assets/skill/modificado_html.svg" alt="img1"> 
-                </div>
-                <div class="box2">
-                    <img src="../assets/skill/modificado_css.svg" alt="img2">
-                </div>
-                <div class="box3">
-                    <img src="../assets/skill/bootstrap.png" alt="img3">
-                </div>
-                <div class="box4">
-                    <img src="../assets/skill/sass.svg" alt="img4">
-                </div>
-                <div class="box5">
-                    <img src="../assets/skill/modificado_javascript.svg" alt="img5">
-                </div>
-                <div class="box6">
-                    <img src="../assets/skill/modificado_python.svg" alt="img6">
-                </div>
-                <div class="box7">
-                    <img src="../assets/skill/typescript.svg" alt="img7">
-                </div>
-                <div class="box8">
-                    <img src="../assets/skill/python.png" alt="img8">
-                </div>
-                <div class="box9">
-                    <img src="../assets/skill/django.png" alt="img9">
-                </div>
-                <div class="box10">
-                    <img src="../assets/skill/git.svg" alt="img10">
-                </div>
-                <div class="box11">
-                    <img src="../assets/skill/git.svg" alt="img11">
-                </div>
-            </div>
-        </div>
+
     </div>
+        
     
     <script src="../javascrip/jquery-3.6.2.min.js"></script>
     <script src="../javascrip/jquery.min.js"></script>

@@ -30,6 +30,17 @@
     font-family: 'Lobster', cursive;
 }
 
+/*cambia el skip*/
+.full-work {
+    display: flex;
+    justify-content: center;
+    color: var(--main-white);
+    font-size: 2rem;
+}
+.full-work span {
+    color: white;
+}
+
 /*skill */
 
 #habilidadesskills {
