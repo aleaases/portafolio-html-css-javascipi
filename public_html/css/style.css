@@ -656,3 +656,18 @@ footer i {
 	81%,86% {background: #0E0E52}
 	97%,to  {background: #0E0E52}
 }
+.containerfull {
+    display: flexbox;
+    width: 100%;
+}
+@media screen and (max-width: 767px){
+    ...
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    ...
+}
+
+@media screen and (min-width: 1024px) {
+    ...
+}
