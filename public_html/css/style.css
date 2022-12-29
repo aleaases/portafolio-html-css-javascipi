@@ -86,7 +86,7 @@ a {
 }
 /* header */
  /* menu hamburgesa */
- .container {
+.container {
     max-width: 1050px;
     width: 90%;
     margin: auto;
@@ -259,7 +259,7 @@ a {
     height: 100vh;
     background-color: rgb(174, 201, 207);
     background-image: linear-gradient(62deg, #0b0b0b 0%, #181719 100%);
-    background-image: url(../assets/img/water-21.gif);
+    background-image: url(../../assets/img/water-21.gif);
 
 }
 /*cambia el full stack*/
@@ -537,7 +537,7 @@ footer i {
     border: #ffffff 5px solid;
     border-radius: 50px;
     justify-content: center;
-    background-image: url(../assets/personal/actualizado-alejandro.jpeg);
+    background-image: url(../../assets/personal/actualizado-alejandro.jpeg);
     background-size: cover;
     
 }
