@@ -5,7 +5,6 @@
     background-color: var(--main-midblue);
     display: block;
     justify-content: center;
-    
 }
 
 .container-box{
@@ -26,7 +25,7 @@
     display: flex;
     padding: 50px;
     margin: 10px;
-    border: #0b0b0b 5px solid;
+    border: #ffffff 5px solid;
     border-radius: 50px;
     justify-content: center;
     background-image: url(../../assets/personal/actualizado-alejandro.jpeg);
@@ -38,13 +37,14 @@
     width: 50%;
     height: 100vh;
     justify-content: center;
-    background-color: #8196ab;
+    background-color: #0E0E52;
     display: inline-block;
     padding: 50px;
     margin: 10px;
-    border: #0b0b0b 5px solid;
+    border: #ffffff 5px solid;
     border-radius: 50px;
     text-align: justify;
+    font-size: 2.5rem;
     
 }
 .container-3 h3 {
@@ -54,9 +54,10 @@
 .container-boton {
     text-align: center;
     padding: 10rem 2rem;
-    text-decoration: underline;
-    bottom: 10px;
-    border-radius: 50px;
     text-decoration: none;
+    font-size: 2rem;
+}
 
+.container-boton :hover {
+    color: black;
 }

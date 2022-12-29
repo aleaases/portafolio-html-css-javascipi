@@ -16,24 +16,30 @@
 <body>
     <div class="containerfull">
         <header>
-            <div id="full-menu" class="full-menu">
-                <nav id="menu" class="menu">
-                    <ul>
-                        <li class="home"> </li>
-                        <li class="contact"> <a href=""><span>Inicio</span> </a></li>
-                        <li class="about"> <a href=""><span>Sobre Mi</span></a></li>
-                        <li class="works"> <a href=""><span>Habilidades</span> </a></li>
-                        <li class="contact"><a href=""><span>Trabajos</span></a></li>
-                        <li class="contact"><a href=""><span>Proyectos</span></a></li>
-                        <li class="contact"><a href="formn.html"><span>Contacto</span></a> </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="hamburguer">
-                <div class="lines line-top"></div>
-                <div class="lines line-mid"></div>
-                <div class="lines line-bottom"></div>
-            </div>
+            <nav>
+                <div class="navbar">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>  
+                        <div class="logo">
+                            <h3>Portafolio</h3>
+                        </div>
+                        <div class="menu-items">
+                            <li><a href="#welcome-section">Inicio</a></li>
+                            <li><a href="#sobre-mi">Sobre MI</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#projects">Trabajos</a></li>
+                            <li><a href="#habilidadesskills">Portafolio</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
         </header>
     <div id="welcome-section" class="welcome-section">
         <picture >
@@ -62,8 +68,8 @@
             </p>
             </div>
         </div>
-        <div class="container-boton">
-            <a href="../assets/docs/cv alejandro.docx">Download CV</a><hr>
+        <div class="container-boton btn btn-show-all">
+            <a href="../assets/docs/cv alejandro.docx">Download CV</a>
         </div>
     </div>
 
@@ -75,7 +81,7 @@
             <div class="container-efecto-1">
                 <div class="gallery">
                     <img src="../assets/skill/modificado_html.svg" alt="html" width="250" height="250">
-                    <img src="../assets/skill/css.png" alt="css" width="250" height="250">
+                    <img src="../assets/skill/css_modificado.svg" alt="css" width="250" height="250">
                     <img src="../assets/skill/modificado_javascript.svg" alt="javascrip" width="250" height="250">
                     <img src="../assets/skill/bootstrap.png" alt="bootstrap" width="250" height="250">
                     <img src="../assets/skill/sass.svg" alt="sass" width="250" height="250">
@@ -84,15 +90,75 @@
             </div>
             <div class="container-efecto-2">
                 <div class="gallery">
-                    <img src="https://picsum.photos/id/174/400/400" alt="a hot air balloon">
-                    <img src="https://picsum.photos/id/175/400/400" alt="a clock">
-                    <img src="https://picsum.photos/id/188/400/400" alt="a sky photo of an old city">
-                    <img src="https://picsum.photos/id/211/400/400" alt="a small boat">
-                    <img src="https://picsum.photos/id/22/400/400" alt="a lonely man :(">
-                    <img src="https://picsum.photos/id/28/400/400" alt="a forest">
+                    <img src="../assets/skill/modificado_python.svg" alt="python" width="250" height="250">
+                    <img src="../assets/skill/modificado_react.svg" alt="Reactjs" width="250" height="250">
+                    <img src="../assets/skill/typescript.svg" alt="TypeScript" width="250" height="250">
+                    <img src="../assets/skill/modificado_django.svg" alt="Django" width="250" height="250">
+                    <img src="../assets/skill/modificado_node-js.svg" alt="nodejs" width="250" height="250">
+                    <img src="../assets/skill/modificado_angular.svg" alt="Angular width="250" height="250">
                     </div>
             </div>
         </div>
+    </div>
+
+    <div id="projects" class="projects-section">
+        <h2 class="projects-section-header">Trabajos Realizados</h2>
+        <div class="projects-grid">
+        <a href="http://estudiojuridicocasette.com/" target="_blank" class="project project-tile">
+            <img class="project-image" src="https://abogadostdf.com.ar/wp-content/uploads/2017/05/estudio-juridico-bustamante-uruguay.jpg" alt="project"/>
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Estudio Juridico
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+
+        <a href="" target="_blank" class="project project-tile" >
+            <img class="project-image" src="" alt="project"/>
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Tienda online
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+
+        <a href="" target="_blank" class="project project-tile">
+            <img class="project-image" src="" alt="project"/>
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Calculadora
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+
+        <a href="" target="_blank" class="project project-tile" >
+            <img class="project-image" src="" alt="project"/>
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Map Data Across the Globe
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+
+        <a href="" target="_blank" class="project project-tile">
+            <img class="project-image" src="" alt="project" />
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Wikipedia Viewer
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+
+        <a href="" target="_blank" class="project project-tile" >
+            <img class="project-image" src="" alt="project" />
+            <p class="project-title">
+            <span class="code">&lt;</span>
+            Tic Tac Toe Game
+            <span class="code">&#47;&gt;</span>
+            </p>
+        </a>
+        </div>
+        <a href="#welcome-section" class="btn btn-show-all">inicio<i class="fas fa-chevron-right"></i></a>
     </div>
     
     
@@ -100,7 +166,7 @@
     <div id="habilidadesskills">
 
         <div id="project-title">
-            <h2><b>Skills</b></h2>
+            <h2><b>Proyectos</b></h2>
         </div>
 
         <div class="projects1">
@@ -119,7 +185,38 @@
         </div>
     </div>
 
+    
+
+        
+
+    <!-- datos de cantacto -->
+
+<div id="contact" class="contact-section">
+    <div class="contact-section-header">
+    <h2></h2>
+    <p></p>
     </div>
+    <div class="contact-links">
+    <a href="https://www.facebook.com/AlejandroyCintialove" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+    <a id="profile-link" href="https://github.com/aleaases" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.instagram.com/aleaases/" target="_blank" class="btn contact-details"><i class="fab fa-instagram"></i> instagram</a>
+    <a href="mailto:Alejandro_ases@asesdelaprogramacion.com" class="btn contact-details"><i class="fas fa-at"></i> Email</a>
+    </div>
+</div>
+
+<!-- copyright -->
+
+<footer>
+    <p>
+
+    </p>
+    <p>
+        &copy; Created for Alejadro Ases <br> Full Stack Web Developer
+    </p>
+</footer>
+
+    </div>
+    
         
     
     <script src="../javascrip/jquery-3.6.2.min.js"></script>

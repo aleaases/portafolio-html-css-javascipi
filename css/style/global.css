@@ -24,6 +24,12 @@
     box-sizing: inherit;
 }
 
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 @media (max-width: 75em) {
     html {
         font-size: 60%;
@@ -50,4 +56,29 @@ body {
     line-height: 1.4;
     color: rgb(249, 249, 249);
     display: flex;
+}
+
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
 }
