@@ -43,7 +43,6 @@
 .nav-container {
     display: block;
     position: relative;
-    height: 60px;
 }
 
 .nav-container .checkbox {
@@ -116,10 +115,10 @@
 
 .logo {
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: 15px;
     font-size: 3rem;
-    color: #fdfdfd;
+    color: #ffffff;
     justify-content: center;
 }
 
@@ -148,7 +147,7 @@
 .navbar {
     width: 100%;
     background: #0E0E52;
-    position: fixed;
+    position: absolute;
     z-index: 10;
 }
 

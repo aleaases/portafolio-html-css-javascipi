@@ -43,7 +43,7 @@
 
 
 .gallery {
-	--s: 250px; /* the size */
+	--s: 150px; /* the size */
 	
 	display: grid;
 	transform-style: preserve-3d;

@@ -82,3 +82,15 @@ a {
     text-decoration: none;
     color: var(--main-white);
 }
+
+@media (min-width: 1024px) {
+    ...
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    ...
+}
+
+@media (min-width: 328px) and (max-width: 768) {
+    ...
+}
